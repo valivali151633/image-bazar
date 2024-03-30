@@ -45,3 +45,25 @@ body{
         }
     }
 }
+
+@media screen and (min-width: 0px) and (max-width: 380px) {
+
+    .container .images-list{
+        
+        // border: 1px solid green;
+        grid-template-columns:  1fr ;
+        gap:1rem;
+       
+    }
+
+}
+@media screen and (min-width:381px) and (max-width:600px) {
+
+    .container .images-list{
+        
+        // border: 1px solid green;
+        grid-template-columns:  repeat(2, 1fr) ;
+        gap:1rem;
+    }
+       
+    }
