@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import CustomImage from "./components/CustomImage";
+import ImageBazar from "./ImageBazar";
+
+
+// const imageUrl = "https://images.unsplash.com/profile-1441298803695-accd94000cac?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128&s=32085a077889586df88bfbe406692202"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <CustomImage url={imageUrl}/>
+    <ImageBazar/>
   );
 }
 
